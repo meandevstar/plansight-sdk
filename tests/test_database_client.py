@@ -166,6 +166,8 @@ class TestDatabaseClient(unittest.TestCase):
         self.assertEqual(records[0][1], 'Carol Lee')
 
     def test_read_records_with_limit(self):
+        records = self.db_client.read_records('Users')
+        print('==> records', records)
         records = self.db_client.read_records('Users', limit=2)
         print('==> records', records)
         self.assertEqual(len(records), 2)

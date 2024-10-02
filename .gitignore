@@ -1,4 +1,4 @@
 .venv/
 .pytest_cache/
-**/__pycache__/
-tests/test_db.sqlite
+**/__pycache__
+**/*.sqlite
