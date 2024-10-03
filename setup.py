@@ -8,7 +8,6 @@ setup(
     install_requires=[
         'setuptools>=58.0.0',
         'pytest>=6.0.0',
-        'sqlite3',
     ],
     entry_points={
         'console_scripts': [],
